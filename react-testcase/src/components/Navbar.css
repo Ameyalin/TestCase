@@ -1,10 +1,37 @@
-body {
+.navWrapper {
+
+    width: 100%; 
+    height: 110px; 
+    display: flex; 
+    flex-direction: row; 
     
-    background-color: #18d0d0; 
 }
+
+.navIMDBLink {
+    display: block;
+    max-width:230px;
+    max-height:90px;
+    width: auto;
+    height: auto;
+    padding-top: 10px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
 
 .navbar {
     height: 100px; 
-    width: 100%; 
-    background-color: antiquewhite; 
+    width: 30%; 
+    
 }
+
+.moviesLink {
+    font-family: sans-serif; 
+    text-decoration: none; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 20px; 
+    color: red; 
+}
+
