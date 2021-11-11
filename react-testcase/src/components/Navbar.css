@@ -1,14 +1,10 @@
-import React,
-    {
-    useState
+body {
+    
+    background-color: #18d0d0; 
 }
 
-from 'react'
-
-function Navbar() {
-    <> <nav className="navbar"> 
-    Npm 
-    <div className="navbar-container"></div> </> 
+.navbar {
+    height: 100px; 
+    width: 100%; 
+    background-color: antiquewhite; 
 }
-
-export default Navbar
