@@ -8,15 +8,17 @@ function Navbar() {
     return (
         <> 
         <div className='navWrapper'>
-            <a href='google.com'> <img className='navIMDBLink' src={IMDBLogo} alt ="IMDB LOGO">
+            <a href='google.com'> <img className='navIMDBLink' src={IMDBLogo} alt="IMDB LOGO">
                 </img>
-        </a>
-           <nav className='navbar'>
-                
-            <a className='moviesLink' href="google.com">Movies</a>
-                                                           
-        
-        </nav>
+            </a>
+            <nav className='navLinkBar'>
+
+                <a className='moviesLink' href="google.com">Movies</a>
+                <a className='moviesLink' href="google.com">Movies</a>
+                <a className='moviesLink' href="google.com">Movies</a>
+
+
+            </nav>
         </div>
         </> 
         ); 
