@@ -1,0 +1,78 @@
+.backgroundImage {
+    background-image: url(../media/The-Martian-4.jpg); 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px; 
+    width: 100%; 
+    
+}
+
+.heroSection {
+    display: flex; 
+
+}
+
+.scrollProgressBar {
+    width: 10%; 
+
+
+}
+
+.heroTextContainer {  
+    color: #ffffff; 
+    font-family: sans-serif;
+    width: 80%; 
+    text-align: left; 
+
+   
+}
+
+.heroTitle  {
+    text-transform: uppercase;
+    font-size: 75px;  
+    font-weight: 700; 
+    padding: 0; 
+    margin: 0;
+    
+}
+
+.genreContainer {
+    text-transform: uppercase;
+    display: flex; 
+    font-weight: 600; 
+    gap: 15px; 
+}
+
+.trailerBtn {
+    height: 55px; 
+    width: 200px; 
+    background-color:#E6B91E;  
+    border-radius: 20px;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    justify-content: center; 
+}
+
+.alignBox{
+    height: 20px; 
+    background-color: aqua; 
+
+}
+
+.trailerBtnText {
+    text-decoration: none; 
+    color: #000;
+    font-weight: 550;  
+    font-size: 17px; 
+}
+
+.playBtnImage {
+    margin-left: 10px; 
+    max-height: 19px; 
+    max-width: 19px; 
+    
+}
